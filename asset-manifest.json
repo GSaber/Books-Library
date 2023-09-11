@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/GSaber/Books-Library/static/css/main.fa380ced.css",
+    "main.js": "/GSaber/Books-Library/static/js/main.bb3d828a.js",
+    "index.html": "/GSaber/Books-Library/index.html",
+    "main.fa380ced.css.map": "/GSaber/Books-Library/static/css/main.fa380ced.css.map",
+    "main.bb3d828a.js.map": "/GSaber/Books-Library/static/js/main.bb3d828a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa380ced.css",
+    "static/js/main.bb3d828a.js"
+  ]
+}
