@@ -45,4 +45,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 Add books to your personal library.
 
-> > > > > > > 63ae0eb21edbb34bdb7422861d43eb3654a67d60
