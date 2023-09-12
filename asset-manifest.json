@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/GSaber/Books-Library/static/css/main.fa380ced.css",
-    "main.js": "/GSaber/Books-Library/static/js/main.bb3d828a.js",
+    "main.css": "/GSaber/Books-Library/static/css/main.31378b37.css",
+    "main.js": "/GSaber/Books-Library/static/js/main.d954f548.js",
+    "static/media/paper-texture.jpg": "/GSaber/Books-Library/static/media/paper-texture.7768ea12c67348427796.jpg",
+    "static/media/leather1-texture.jpg": "/GSaber/Books-Library/static/media/leather1-texture.b906abe28f3f6e2d9a35.jpg",
     "index.html": "/GSaber/Books-Library/index.html",
-    "main.fa380ced.css.map": "/GSaber/Books-Library/static/css/main.fa380ced.css.map",
-    "main.bb3d828a.js.map": "/GSaber/Books-Library/static/js/main.bb3d828a.js.map"
+    "main.31378b37.css.map": "/GSaber/Books-Library/static/css/main.31378b37.css.map",
+    "main.d954f548.js.map": "/GSaber/Books-Library/static/js/main.d954f548.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa380ced.css",
-    "static/js/main.bb3d828a.js"
+    "static/css/main.31378b37.css",
+    "static/js/main.d954f548.js"
   ]
 }
