@@ -90,7 +90,7 @@ function App() {
 
       <div className="mylibrary">
         <div className="titles">
-          <h3>My Library</h3>
+          <h3>My library</h3>
           {myLibrary.map((book) => {
             return (
               <div
