@@ -16,7 +16,13 @@ function App() {
   }, []);
 
   function handleAddBook(id: number) {
-    setmyLibrary([...myLibrary, BOOKS[id]]);
+    const isBookFound = myLibrary.find((book) => book.id === id);
+    if (isBookFound) {
+      alert("Book already in ur collection");
+      console.log("", myLibrary[id]?.id, id);
+    } else {
+      setmyLibrary([...myLibrary, BOOKS[id]]);
+    }
   }
 
   function pagination(clickedBook: Book) {

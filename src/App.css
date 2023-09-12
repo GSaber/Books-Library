@@ -14,17 +14,22 @@ code {
 .mylibrary {
   display: flex;
   color: white;
-  padding: 10px;
+  overflow: hidden;
   border: 1px solid black;
+  border-radius: 15px;
   margin: 10px;
 }
+.mylibrary h3 {
+  color: white;
+}
 .titles {
-  width: 10%;
+  background-image: url("./assets/images/leather1-texture.jpg");
+  background-size: cover;
+  width: 20%;
   text-align: center;
   border-right: 1px solid gray;
   color: black;
-
-  padding: 10px;
+  padding: 0 10px;
 }
 .book {
   border: 1px solid black;
@@ -47,31 +52,56 @@ code {
   color: white;
 }
 .books {
-  padding: 40px 0;
-  border-radius: 10px;
+  padding: 40px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
-@media (max-width: 768px) {
-  /* For mobile phones: */
-  .books {
-    flex-direction: column-reverse;
+@media (max-width: 1200px) {
+  .card {
+    width: 100%;
+  }
+  .mylibrary {
+    flex-direction: column;
+    align-items: center;
+  }
+  .titles {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 10px;
+    border-right: none;
+  }
+  .book {
+    width: 90%;
+  }
+  .content {
+    overflow: hidden;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+    width: 100%;
+  }
+  .content button {
+    margin-left: 5px;
+  }
+  .page {
+    width: 100%;
   }
 }
 .card {
   border-radius: 10px;
   text-align: center;
-  width: 300px;
+  width: 18em;
   height: 350px;
   cursor: pointer;
   box-shadow: 0 0 5px #000;
   overflow: hidden;
   transition: ease-in-out 0.3s;
   background-size: cover;
-  background-repeat: round no-repeat;
-  background-position: center center;
+  background-repeat: no-repeat;
 }
 .card:hover {
   transform: scale(1.15);
@@ -119,8 +149,10 @@ code {
   transform: translateY(0);
 }
 .content {
-  width: 80%;
-  padding: 0 20px;
+  background: url("./assets/images/paper-texture.jpg");
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
   color: black;
 }
 .title {
@@ -128,7 +160,6 @@ code {
 }
 .page {
   width: 80%;
-  height: 50px;
   margin: 0 auto;
   text-align: center;
   border: 1px dashed black;
