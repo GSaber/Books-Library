@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/GSaber/Books-Library/static/css/main.31378b37.css",
-    "main.js": "/GSaber/Books-Library/static/js/main.d954f548.js",
-    "static/media/paper-texture.jpg": "/GSaber/Books-Library/static/media/paper-texture.7768ea12c67348427796.jpg",
-    "static/media/leather1-texture.jpg": "/GSaber/Books-Library/static/media/leather1-texture.b906abe28f3f6e2d9a35.jpg",
-    "index.html": "/GSaber/Books-Library/index.html",
-    "main.31378b37.css.map": "/GSaber/Books-Library/static/css/main.31378b37.css.map",
-    "main.d954f548.js.map": "/GSaber/Books-Library/static/js/main.d954f548.js.map"
+    "main.css": "/static/css/main.88836cf7.css",
+    "main.js": "/static/js/main.d954f548.js",
+    "static/media/paper-texture.jpg": "/static/media/paper-texture.7768ea12c67348427796.jpg",
+    "static/media/leather1-texture.jpg": "/static/media/leather1-texture.b906abe28f3f6e2d9a35.jpg",
+    "index.html": "/index.html",
+    "main.88836cf7.css.map": "/static/css/main.88836cf7.css.map",
+    "main.d954f548.js.map": "/static/js/main.d954f548.js.map"
   },
   "entrypoints": [
-    "static/css/main.31378b37.css",
+    "static/css/main.88836cf7.css",
     "static/js/main.d954f548.js"
   ]
 }
