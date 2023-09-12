@@ -54,6 +54,12 @@ code {
   justify-content: center;
   gap: 30px;
 }
+@media (max-width: 768px) {
+  /* For mobile phones: */
+  .books {
+    flex-direction: column-reverse;
+  }
+}
 .card {
   border-radius: 10px;
   text-align: center;
